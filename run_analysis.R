@@ -98,4 +98,4 @@ tidy_data   = dcast(melt_data, subject + Activity_Label ~ variable, mean)
 # Finally, we can write our new tidy data set
 # The file is output into the working directory set
 
-write.table(tidy_data, file = "./tidy_data.txt")
+write.table(tidy_data, row.name=FALSE, file = "./tidy_data.txt")
