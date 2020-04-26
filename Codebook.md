@@ -35,22 +35,20 @@ For each record in the dataset, the following information is provided
 5. An identifier of the subject who carried out the experiment.
 
 ###Explanation of each file
-```features.txt: Factor w/ 477 levels
-```
-```activity_labels.txt: Factor w/ 6 levels
-```
-```X_train.txt: 'data.frame':	7352 obs. of  79 variables Note - this contains only the test subjects (21 of 30)
-```
-```subject_train.txt: 'data.frame':	7352 obs. of  1 variable (note, this is the ID of the volunteer) from X_train.txt.
-```
-```y_train.txt: 'data.frame':	7352 obs. of  2 variables (note, this is the ID of the activity related to each of the observations in X_train.txt.
-```
-```X_test.txt: 'data.frame':	2947 obs. of  79 variables (note, this is for 9 of the 30 volunteers).
-```
-```subject_test.txt:'data.frame':	2947 obs. of  1 variable: (note, this is the ID of the volunteer related to each of the observations in X_test.txt.
-```
-```y_test.txt: 'data.frame':	2947 obs. of  2 variables:A vector of 2947 integers (note, this is the ID of the activity related to each of the observations in X_test.txt.
-```
+1. features.txt: Factor w/ 477 levels
+
+2. activity_labels.txt: Factor w/ 6 levels
+3. X_train.txt: 'data.frame':	7352 obs. of  79 variables Note - this contains only the test subjects (21 of 30)
+
+4. subject_train.txt: 'data.frame':	7352 obs. of  1 variable (note, this is the ID of the volunteer) from X_train.txt.
+
+5. y_train.txt: 'data.frame':	7352 obs. of  2 variables (note, this is the ID of the activity related to each of the observations in X_train.txt.
+
+6. X_test.txt: 'data.frame':	2947 obs. of  79 variables (note, this is for 9 of the 30 volunteers).
+
+7. subject_test.txt:'data.frame':	2947 obs. of  1 variable: (note, this is the ID of the volunteer related to each of the observations in X_test.txt.
+
+8. y_test.txt: 'data.frame':	2947 obs. of  2 variables:A vector of 2947 integers (note, this is the ID of the activity related to each of the observations in X_test.txt.
 
 ###Additional info
 
